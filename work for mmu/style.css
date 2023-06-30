@@ -1,0 +1,116 @@
+/* styles.css */
+
+body {
+    padding-top: px;
+    background-color: #FEEAA6;
+    color: #333333;
+  }
+  
+  .hero {
+    background-color: #FFD700;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333333;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .navbar {
+    background-color: #FFD700;
+    transition: all 0.3s;
+    border-bottom: 4px solid #FFC800;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    padding: 8px 15px;
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #FFC800;
+  }
+  
+  .navbar-toggler {
+    border-color: #cea7a7;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #333333;
+  }
+  
+  .btn-primary {
+    font-size: 20px;
+    padding: 12px 30px;
+    background-color: #FFD700;
+    border-color: #FFD700;
+    color: #333333;
+  }
+  
+  .btn-primary:hover {
+    background-color: #FFC800;
+    border-color: #FFC800;
+    color: #333333;
+  }
+  
+  .footer {
+    background-color: #FFD700;
+    padding: 20px 0;
+    color: #333333;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
+  
+  /* Animations from Animate.css */
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
